@@ -11,6 +11,7 @@ class Site extends CI_Controller {
 
 	public function cursos(){
 		$this->load->library('session');
+		$this->session->set_flashdata('sucesso', '');
 
 		$this->load->view('cursos/header');
 		$this->load->view('cursos/body');
