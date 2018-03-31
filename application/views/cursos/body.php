@@ -10,21 +10,21 @@
                 <div class="row">
                     <?php if ($this->session->flashdata('sucesso') == 'true'): ?>
                         <?php $this->session->set_flashdata('sucesso', ''); ?>
-                        <div class="col-md-12 col-xs-12 wow fadeInDown">
+                        <div class="col-md-12 col-xs-12">
                             <div class="alert alert-success">
                                 <strong>Sucesso!</strong> Um email foi enviado com sua solicitação, em breve retornaremos o contato.
                             </div>
                         </div>
                     <?php elseif($this->session->flashdata('sucesso') == 'false'): ?>
                         <?php $this->session->set_flashdata('sucesso', ''); ?>
-                        <div class="col-md-12 col-xs-12 wow fadeInDown">
+                        <div class="col-md-12 col-xs-12">
                             <div class="alert alert-danger">
                                 <strong>Erro!</strong> Houve um problema ao enviar o email, por favor tente novamente.
                             </div>
                         </div>
                     <?php endif; ?>
 
-                    <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services1.png" alt="Card image cap">
@@ -75,7 +75,7 @@
 
                     <div class="col-md-1 col-xs-12"></div>
 
-                    <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services3.png" alt="Card image cap">
@@ -124,7 +124,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services4.png" alt="Card image cap">
@@ -175,7 +175,7 @@
 
                     <div class="col-md-1 col-xs-12"></div>
 
-                   <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                   <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services5.png" alt="Card image cap">
