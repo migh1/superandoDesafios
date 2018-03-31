@@ -1,7 +1,7 @@
     <div id="Coaching">
         <section id="services" class="service-item">
            <div class="container">
-                <div class="center wow fadeInDown">
+                <div class="center">
                 <br /><br />
                     <h2>Soluções</h2>
                     <p class="lead">Algumas das soluções prestadas por nós.</p>
