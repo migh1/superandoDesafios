@@ -9,22 +9,22 @@
     <title>Superando Desafios | Saiba como o coaching pode transformar sua vida!</title>
     
     <!-- core CSS -->
-    <link href="https://superandodesafios.herokuapp.com/assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="https://superandodesafios.herokuapp.com/assets/css/font-awesome.css" rel="stylesheet"> -->
-    <link href="https://superandodesafios.herokuapp.com/assets/css/font-awesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
-    <link href="https://superandodesafios.herokuapp.com/assets/css/animate.min.css" rel="stylesheet">
-    <link href="https://superandodesafios.herokuapp.com/assets/css/prettyPhoto.css" rel="stylesheet">
-    <link href="https://superandodesafios.herokuapp.com/assets/css/main.css" rel="stylesheet">
-    <link href="https://superandodesafios.herokuapp.com/assets/css/responsive.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="<?php echo base_url(); ?>assets/css/font-awesome.css" rel="stylesheet"> -->
+    <link href="<?php echo base_url(); ?>assets/css/font-awesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="https://superandodesafios.herokuapp.com/assets/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://superandodesafios.herokuapp.com/assets/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://superandodesafios.herokuapp.com/assets/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://superandodesafios.herokuapp.com/assets/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="https://superandodesafios.herokuapp.com/assets/images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url(); ?>assets/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url(); ?>assets/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url(); ?>assets/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url(); ?>assets/images/ico/apple-touch-icon-57-precomposed.png">
     <style>
         .iframe-rwd  {
             position: relative;
@@ -58,7 +58,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="https://superandodesafios.herokuapp.com/"><img src="https://superandodesafios.herokuapp.com/assets/images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
@@ -66,8 +66,8 @@
                         <!-- <li class="active"><a href="#Principal">Principal</a></li> -->
                         <li><a href="#SuperandoDesafios">Superando Desafios</a></li>
                         <li><a href="#Coaching">Coaching</a></li>
-                        <li><a href="https://superandodesafios.herokuapp.com/index.php/site/cursos">Cursos</a></li>
-                        <li><a href="https://superandodesafios.herokuapp.com/index.php/site/solucoes">Soluções</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/site/cursos">Cursos</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/site/solucoes">Soluções</a></li>
                         <!-- <li><a href="#Certificados">Certificados</a></li> -->
                         <!-- <li><a href="#Depoimentos">Depoimentos</a></li> -->
                         <!-- <li><a href="#SaiuMidia">Saiu na Mídia</a></li> -->
