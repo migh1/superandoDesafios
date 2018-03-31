@@ -10,7 +10,7 @@
                         <li><a href="#SuperandoDesafios">Superando Desafios</a></li>
                         <!-- <li><a href="#TrabalhosRecentes">Trabalhos Recentes</a></li> -->
                         <li><a href="#Coaching">Coaching</a></li>
-                        <li><a href="<?php echo base_url(); ?>index.php/site/cursos">Cursos</a></li>
+                        <li><a href="https://superandodesafios.herokuapp.com/index.php/site/cursos">Cursos</a></li>
                         <!-- <li><a href="#Depoimentos">Depoimentos</a></li> -->
                         <!-- <li><a href="#SaiuMidia">Saiu na Mídia</a></li> -->
                         <!-- <li><a href="#Certificados">Certificados</a></li> -->
@@ -21,11 +21,11 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/jquery.prettyPhoto.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/wow.min.js"></script>
+    <script src="https://superandodesafios.herokuapp.com/assets/js/jquery.js"></script>
+    <script src="https://superandodesafios.herokuapp.com/assets/js/bootstrap.min.js"></script>
+    <script src="https://superandodesafios.herokuapp.com/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="https://superandodesafios.herokuapp.com/assets/js/jquery.isotope.min.js"></script>
+    <script src="https://superandodesafios.herokuapp.com/assets/js/main.js"></script>
+    <script src="https://superandodesafios.herokuapp.com/assets/js/wow.min.js"></script>
 </body>
 </html>

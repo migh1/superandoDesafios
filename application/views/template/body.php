@@ -8,7 +8,7 @@
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(<?php echo base_url(); ?>assets/images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(https://superandodesafios.herokuapp.com/assets/images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -19,7 +19,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="<?php echo base_url(); ?>assets/images/slider/img1.png" class="img-responsive">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/slider/img1.png" class="img-responsive">
                                 </div>
                             </div>
 
@@ -27,7 +27,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/slider/bg2.jpg)">
+                <div class="item" style="background-image: url(https://superandodesafios.herokuapp.com/assets/images/slider/bg2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -38,7 +38,7 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="<?php echo base_url(); ?>assets/images/slider/img2.png" class="img-responsive">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/slider/img2.png" class="img-responsive">
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(<?php echo base_url(); ?>assets/images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(https://superandodesafios.herokuapp.com/assets/images/slider/bg3.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -57,7 +57,7 @@
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="<?php echo base_url(); ?>assets/images/slider/img3.png" class="img-responsive">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/slider/img3.png" class="img-responsive">
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="media services-wrap wow fadeInDown">
                             <div class="pull-left">
-                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services1.png">
+                                <img class="img-responsive" src="https://superandodesafios.herokuapp.com/assets/images/services/services1.png">
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Business Coaching</h3>
@@ -156,7 +156,7 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="media services-wrap wow fadeInDown">
                             <div class="pull-left">
-                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services3.png">
+                                <img class="img-responsive" src="https://superandodesafios.herokuapp.com/assets/images/services/services3.png">
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Executive Coaching</h3>
@@ -168,7 +168,7 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="media services-wrap wow fadeInDown">
                             <div class="pull-left">
-                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services4.png">
+                                <img class="img-responsive" src="https://superandodesafios.herokuapp.com/assets/images/services/services4.png">
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Leadership Coaching</h3>
@@ -180,7 +180,7 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="media services-wrap wow fadeInDown">
                             <div class="pull-left">
-                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services5.png">
+                                <img class="img-responsive" src="https://superandodesafios.herokuapp.com/assets/images/services/services5.png">
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Team Coaching</h3>
@@ -193,7 +193,7 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="media services-wrap wow fadeInDown">
                             <div class="pull-left">
-                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services2.png">
+                                <img class="img-responsive" src="https://superandodesafios.herokuapp.com/assets/images/services/services2.png">
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Career Coaching</h3>
@@ -206,7 +206,7 @@
                     <div class="col-sm-6 col-md-4">
                         <div class="media services-wrap wow fadeInDown">
                             <div class="pull-left">
-                                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services6.png">
+                                <img class="img-responsive" src="https://superandodesafios.herokuapp.com/assets/images/services/services6.png">
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">Life Coaching</h3>
@@ -242,7 +242,7 @@
                         </div>
                         <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="<?php echo base_url(); ?>assets/images/default/photo-male.png">
+                                <img class="img-responsive img-circle" src="https://superandodesafios.herokuapp.com/assets/images/default/photo-male.png">
                             </div>
                             <div class="media-body">
                                 <p>Percebi que perdia muito tempo quando deparava com algum problema e não tinha foco para encontrar a solução. Com as técnicas certas, e uma ótima orientação, obtive as atenções necessárias para voltar ao foco quando estive sobre pressão.</p>
@@ -251,7 +251,7 @@
                         </div>
                         <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="<?php echo base_url(); ?>assets/images/default/photo-male.png">
+                                <img class="img-responsive img-circle" src="https://superandodesafios.herokuapp.com/assets/images/default/photo-male.png">
                             </div>
                             <div class="media-body">
                                 <p>Me ajudou quando mais precisei em minha vida, resolvi grande parte dos meus problemas e hoje sigo uma vida muito melhor.</p>
@@ -270,8 +270,8 @@
         <div class="container">
             <div class="partners">
                 <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="<?php echo base_url(); ?>assets/images/partners/partner1.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="<?php echo base_url(); ?>assets/images/partners/partner2.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="https://superandodesafios.herokuapp.com/assets/images/partners/partner1.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="https://superandodesafios.herokuapp.com/assets/images/partners/partner2.png"></a></li>
                 </ul>
             </div>        
         </div>
@@ -347,38 +347,38 @@
                         <div class="media clientes-inner">
                             <div class="row clientes">
                                 <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/anglo.png">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/anglo.png">
                                 </div>
                                 <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/damasio-educacional.png">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/damasio-educacional.png">
                                 </div>
                                 <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/guapiara-2.png">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/guapiara-2.png">
                                 </div>
                                 <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/itabera.png">
-                                </div>
-                            </div>
-                            <div class="row clientes">
-                                <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/itapeva.jpg">
-                                </div>
-                                <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/riversul.jpg">
-                                </div>
-                                <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/itai.jpg">
-                                </div>
-                                <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/objetivo.png">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/itabera.png">
                                 </div>
                             </div>
                             <div class="row clientes">
                                 <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/menegazzo.jpg">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/itapeva.jpg">
                                 </div>
                                 <div class="col-md-3 col-xs-12">
-                                    <img src="<?php echo base_url(); ?>assets/images/clients/monsanto.png">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/riversul.jpg">
+                                </div>
+                                <div class="col-md-3 col-xs-12">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/itai.jpg">
+                                </div>
+                                <div class="col-md-3 col-xs-12">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/objetivo.png">
+                                </div>
+                            </div>
+                            <div class="row clientes">
+                                <div class="col-md-3 col-xs-12">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/menegazzo.jpg">
+                                </div>
+                                <div class="col-md-3 col-xs-12">
+                                    <img src="https://superandodesafios.herokuapp.com/assets/images/clients/monsanto.png">
                                 </div>
                             </div>
                         </div>
