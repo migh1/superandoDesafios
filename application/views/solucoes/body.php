@@ -1,4 +1,4 @@
-    <div id="Coaching">
+    <div id="Coaching" class="wow fadeInDown">
         <section id="services" class="service-item">
            <div class="container">
                 <div class="center">
@@ -24,7 +24,7 @@
                         </div>
                     <?php endif; ?>
 
-                    <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services1.png" alt="Card image cap">
@@ -67,7 +67,7 @@
 
                     <div class="col-md-1 col-xs-12"></div>
 
-                    <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services3.png" alt="Card image cap">
@@ -108,7 +108,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-container col-md-6 col-xs-12 wow fadeInDown" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container col-md-6 col-xs-12" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front card">
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services4.png" alt="Card image cap">

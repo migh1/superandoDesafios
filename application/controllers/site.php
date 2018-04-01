@@ -3,14 +3,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Site extends CI_Controller {
 
+	public function __construct(){
+		parent::__construct();
+		$this->load->model('model_site', 'site');
+		$this->load->library('session');
+	}
+
 	public function index(){
 		$this->load->view('template/header');
 		$this->load->view('template/body');
 		$this->load->view('template/footer');
+		$this->load->view('template/funcoes');
 	}
 
 	public function cursos(){
-		$this->load->library('session');
 		$this->session->set_flashdata('sucesso', '');
 
 		$this->load->view('cursos/header');
@@ -20,7 +26,6 @@ class Site extends CI_Controller {
 	}
 
 	public function formMatricula($curso){
-		$this->load->library('session');
 		$dados = $this->input->post();
 		$horario = '';
 
@@ -66,16 +71,10 @@ class Site extends CI_Controller {
 		} else {
 			$this->session->set_flashdata('sucesso', 'false');
 		}
-
-		$this->load->view('cursos/header');
-		$this->load->view('cursos/body');
-		$this->load->view('cursos/footer');
-		$this->load->view('cursos/funcoes');
+		redirect('site/cursos','refresh');
 	}
 
 	public function solucoes(){
-		$this->load->library('session');
-
 		$this->load->view('solucoes/header');
 		$this->load->view('solucoes/body');
 		$this->load->view('solucoes/footer');
@@ -83,7 +82,6 @@ class Site extends CI_Controller {
 	}
 
 	public function formSolucoes($categoria){
-		$this->load->library('session');
 		$dados = $this->input->post();
 		$horario = '';
 
@@ -120,9 +118,53 @@ class Site extends CI_Controller {
 			$this->session->set_flashdata('sucesso', 'false');
 		}
 
-		$this->load->view('solucoes/header');
-		$this->load->view('solucoes/body');
-		$this->load->view('solucoes/footer');
-		$this->load->view('solucoes/funcoes');
+		redirect('site/solucoes','refresh');
+	}
+
+	public function login(){
+		$dados = $this->input->post();
+		$result = $this->site->realizaLogin($dados['login-email'], $dados['login-senha']);
+
+		if (!empty($result)) {
+			$this->session->set_userdata(array('usuario' => $result));
+
+			redirect('site/material','refresh');
+		} else {
+			$this->session->set_flashdata('sucesso', 'false');
+			redirect('site/index','refresh');
+			
+		}
+	}
+
+	public function cadastro(){
+		$dados = $this->input->post();
+
+		$this->site->realizaCadastro($dados['login-nome'], $dados['login-email'], $dados['login-senha']);
+		
+		$result = $this->site->realizaLogin($dados['login-email'], $dados['login-senha']);
+
+		if (!empty($result)) {
+			$this->session->set_userdata(array('usuario' => $result));
+
+			redirect('site/material','refresh');
+		} else {
+			$this->session->set_flashdata('sucesso', 'false');
+			redirect('site/index','refresh');
+		}
+	}
+
+
+	public function material(){
+		if (!$this->session->userdata('usuario')['isLogado']) {
+			$this->load->view('template/header');
+			$this->load->view('template/body');
+			$this->load->view('template/footer');
+			$this->load->view('template/funcoes');
+		} else {
+			$this->load->view('material/header');
+			$this->load->view('material/body');
+			$this->load->view('material/footer');
+			$this->load->view('material/funcoes');
+		}
 	}
 }

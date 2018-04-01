@@ -71,10 +71,46 @@
                         <!-- <li><a href="#Certificados">Certificados</a></li> -->
                         <!-- <li><a href="#Depoimentos">Depoimentos</a></li> -->
                         <!-- <li><a href="#SaiuMidia">Saiu na Mídia</a></li> -->
-                        <!-- <li><a href="#Clientes">Quem já Contratou</a></li>              -->
+                        <!-- <li><a href="#Clientes">Quem já Contratou</a></li> -->
                         <li><a href="#Contatos">Contatos</a></li>               
+                        <li><a class="btn btn-primary" data-toggle="modal" href='#modalLogin'>Login</a></li>
                     </ul>
                 </div>
             </div>
-        </nav>      
+        </nav>   
     </header>
+
+    <div class="modal fade" id="modalLogin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Área de acesso restrita</h4>
+                </div>
+                <div class="modal-body modal-form">
+                    <form id="form-login" class="active" action="<?php echo base_url(); ?>index.php/site/login" method="POST">
+                        <label>Email</label>
+                        <input class="form-control email" type="text" name="login-email" placeholder="email@email.com">
+                        <label>Senha</label>
+                        <input class="form-control" type="password" name="login-senha" placeholder="********">
+                        <span>Não tem login? Cadastre-se <a href="#" class="selector-cadastro">aqui</a></span>
+                    </form>
+                    <form id="form-cadastro" class="" action="<?php echo base_url(); ?>index.php/site/cadastro" method="POST" style="display: none; opacity: 0;">
+                        <label>Nome *</label>
+                        <input type="text" name="cadastro-nome" class="form-control">
+                        <label>Email *</label>
+                        <input type="text" name="cadastro-email" class="form-control email">
+                        <label>Senha *</label>
+                        <input type="password" name="cadastro-senha" class="form-control">
+                        <label>Repita a senha *</label>
+                        <input type="password" name="cadastro-senha-confirm" class="form-control">
+                        <span>Já possui cadastro? Clique <a href="#" class="selector-login">aqui</a></span>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-success btn-login-cadastro btn-login">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>

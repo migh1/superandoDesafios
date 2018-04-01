@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'https://superandodesafios.herokuapp.com';
+// $config['base_url']	= 'https://superandodesafios.herokuapp.com';
+$config['base_url']	= 'http://localhost/superandoDesafios';
 
 /*
 |--------------------------------------------------------------------------

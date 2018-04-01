@@ -1,5 +1,14 @@
      <!--/.Slide-->
     <section id="main-slider" class="no-margin">
+        <?php if($this->session->flashdata('sucesso') == 'false'): ?>
+            <div class="alert-login-invalido col-md-4 col-xs-12 wow fadeInDown pull-right">
+                <div class="alert alert-danger">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>Erro!</strong> Usuário ou senha inválidos, por favor tente novamente.
+                </div>
+            </div>
+        <?php endif; ?> 
+
         <div class="carousel slide">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
@@ -7,7 +16,6 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-
                 <div class="item active" style="background-image: url(<?php echo base_url(); ?>assets/images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row slide-margin">

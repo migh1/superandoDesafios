@@ -2704,3 +2704,8 @@ shortcodes page css
 	opacity: 0.6;
 	z-index: 99999;
 }
+.alert-login-invalido{
+	position: fixed !important;
+	z-index: 9999 !important;
+	right: 0;
+}
