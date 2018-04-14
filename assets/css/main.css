@@ -2615,8 +2615,8 @@ shortcodes page css
 .card-footer{
 	float: right;
 	position: absolute;
-    right: 11px;
-    bottom: 9px;
+	right: 11px;
+	bottom: 9px;
 }
 .card-footer .btn{
 	margin: 0px;
@@ -2635,6 +2635,7 @@ shortcodes page css
 .flip-container, .front, .back {
 	max-height: 380px;
 	min-height: 380px;
+	/*min-width: 555px;*/
 	margin-bottom: 30px;
 }
 
@@ -2679,24 +2680,24 @@ shortcodes page css
 }
 
 .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    background: transparent;
-    opacity: 1;
-    text-align: center;
-    top: 45%;
-    left: 45%;
-   	z-index: 999999;
+	border: 16px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+	position: absolute;
+	background: transparent;
+	opacity: 1;
+	text-align: center;
+	top: 45%;
+	left: 45%;
+	z-index: 999999;
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
 
 .body-grey-loader{
@@ -2708,4 +2709,140 @@ shortcodes page css
 	position: fixed !important;
 	z-index: 9999 !important;
 	right: 0;
+}
+.selector-img-logo{
+	margin-top: -14px;
+	width: 96%;
+}
+/*.btn-padrao.btn-default:focus, .btn-padrao.btn-default:active, .btn-padrao.btn-default.active, .open .dropdown-toggle.btn-default {
+	color: white !important;
+	background-color: #151515 !important;
+	border-color: #19658B !important;
+}
+.btn-padrao.btn-default:hover, .btn-padrao.btn-selecionado:hover, .btn-padrao.btn-dropdown-lateral:hover{
+	border: 1px solid #19658B !important;
+	color: white !important;
+	background-color: #19658B !important;
+	-webkit-transition: color 300ms, background-color 300ms !important;
+	-moz-transition: color 300ms, background-color 300ms !important;
+	-o-transition: color 300ms, background-color 300ms !important;
+	transition: color 300ms, background-color 300ms !important;
+}
+.btn-padrao.btn-dropdown-lateral{
+	background-color: #151515;
+	border: 1px solid #151515;
+	color: white;
+}*/
+
+
+
+
+.btn-reset{
+	background-color: #151515;
+	border-color: #151515;
+	color: white;
+}
+.btn-reset:hover{
+	background-color: #151515;
+	border-color: #19658B;
+	color: white;
+}
+
+.btn-padrao{
+	background-color: #151515 !important;
+	border: 1px solid #151515;
+	border-color: #151515 !important;
+	color: white !important;
+}
+.btn-padrao:hover{
+	background-color: #151515 !important;
+	border: 1px solid #151515 !important;
+	border-color: #151515 #151515 #19658B #151515 !important;
+	color: #19658B !important;
+}
+
+#btn-material{
+	background-color: #151515;
+	border-style: solid;
+    border-color: #151515;
+	color: white !important;
+}
+#btn-material:hover, 
+#btn-material:focus, 
+#btn-material:active{
+	background-color: #151515;
+	border-style: solid;
+    border-color: #151515 #151515 white #151515;
+	color: #e0e0e0 !important;
+	-webkit-transition: color 300ms, background-color 300ms !important;
+	-moz-transition: color 300ms, background-color 300ms !important;
+	-o-transition: color 300ms, background-color 300ms !important;
+	transition: color 300ms, background-color 300ms !important;
+}
+
+#btn-logout{
+	background-color: #151515;
+	border-style: solid;
+    border-color: #151515 #151515 #ac2925 #151515;
+	color: white !important;
+}
+#btn-logout:hover, 
+#btn-logout:focus, 
+#btn-logout:active{
+	background-color: #151515;
+	border-style: solid;
+    border-color: #151515 #151515 #ac2925 #151515;
+	color: #ac2925 !important;
+	-webkit-transition: color 300ms, background-color 300ms !important;
+	-moz-transition: color 300ms, background-color 300ms !important;
+	-o-transition: color 300ms, background-color 300ms !important;
+	transition: color 300ms, background-color 300ms !important;
+}
+
+#btn-login{
+	background-color: #151515;
+	border-style: solid;
+    border-color: #151515 #151515 #398439 #151515;
+	color: white !important;
+}
+#btn-login:hover, 
+#btn-login:focus, 
+#btn-login:active{
+	background-color: #151515;
+	border-style: solid;
+    border-color: #151515 #151515 #398439 #151515;
+	color: #398439 !important;
+	-webkit-transition: color 300ms, background-color 300ms !important;
+	-moz-transition: color 300ms, background-color 300ms !important;
+	-o-transition: color 300ms, background-color 300ms !important;
+	transition: color 300ms, background-color 300ms !important;
+}
+.tab-content{
+	border: 1px solid #e6e6e6;
+	padding: 0px;
+}
+.btn-selecionado{
+	background-color: #151515 !important;
+	border: 1px solid #151515 !important;
+	border-color: #151515 #151515 #19658B #151515 !important;
+	color: white;
+}
+.btn-selecionado-white{
+	background-color: #151515 !important;
+	border: 1px solid #151515 !important;
+	border-color: #151515 #151515 white #151515 !important;
+	color: white;
+}
+.btn-deselecionado{
+	background-color: #151515;
+	border: 1px solid #151515;
+	color: white;
+}
+.open button, .opn:active, .open:focus{
+	background-color: #151515 !important;
+	border: 1px solid #19658B !important;
+	color: white !important;
+}
+.selector-btn-add-arquivos{
+	margin: 20px 0 20px 0;
 }

@@ -45,7 +45,7 @@
 		}
 	});
 
-	$(document).on('click', '.btn-success', function(e){
+	$(document).on('click', '.selector-btn-matricula', function(e){
 		e.preventDefault();
 		var input = $(this).parents('.card');
 

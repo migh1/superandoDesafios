@@ -7,22 +7,27 @@ class Site extends CI_Controller {
 		parent::__construct();
 		$this->load->model('model_site', 'site');
 		$this->load->library('session');
+		$this->load->helper('file');
+		$this->load->helper('download');
 	}
 
 	public function index(){
-		$this->load->view('template/header');
+		$botao = array('botao' => 'home');
+		$this->load->view('template/header', $botao);
 		$this->load->view('template/body');
 		$this->load->view('template/footer');
 		$this->load->view('template/funcoes');
 	}
 
 	public function cursos(){
+		$botao = array('botao' => 'cursos');
 		$this->session->set_flashdata('sucesso', '');
 
-		$this->load->view('cursos/header');
+		$this->load->view('template/header', $botao);
 		$this->load->view('cursos/body');
-		$this->load->view('cursos/footer');
+		$this->load->view('template/footer');
 		$this->load->view('cursos/funcoes');
+		$this->load->view('template/funcoes');
 	}
 
 	public function formMatricula($curso){
@@ -75,10 +80,12 @@ class Site extends CI_Controller {
 	}
 
 	public function solucoes(){
-		$this->load->view('solucoes/header');
+		$botao = array('botao' => 'solucoes');
+		$this->load->view('template/header', $botao);
 		$this->load->view('solucoes/body');
-		$this->load->view('solucoes/footer');
+		$this->load->view('template/footer');
 		$this->load->view('solucoes/funcoes');
+		$this->load->view('template/funcoes');
 	}
 
 	public function formSolucoes($categoria){
@@ -136,6 +143,11 @@ class Site extends CI_Controller {
 		}
 	}
 
+	public function logout(){
+		$this->session->sess_destroy();
+		redirect('site/index','refresh');
+	}
+
 	public function cadastro(){
 		$dados = $this->input->post();
 
@@ -153,18 +165,30 @@ class Site extends CI_Controller {
 		}
 	}
 
-
 	public function material(){
 		if (!$this->session->userdata('usuario')['isLogado']) {
-			$this->load->view('template/header');
+			$botao = array('botao' => 'home');
+			$this->load->view('template/header', $botao);
 			$this->load->view('template/body');
 			$this->load->view('template/footer');
 			$this->load->view('template/funcoes');
 		} else {
-			$this->load->view('material/header');
+			$botao = array('botao' => 'material');
+			$this->load->view('template/header', $botao);
 			$this->load->view('material/body');
-			$this->load->view('material/footer');
+			$this->load->view('template/footer');
 			$this->load->view('material/funcoes');
+			$this->load->view('template/funcoes');
+		}
+	}
+
+	public function downloadArquivo($arquivo_id){
+		if ($arquivo_id == 1) {
+			$path = $this->site->buscaPathByArquivoId($arquivo_id);
+			echo "<pre>";
+			print_r ($path);
+			echo "</pre>";die();
+			force_download($path, NULL);
 		}
 	}
 }

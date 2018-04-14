@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-matricula">Confirmar</button>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-matricula">Confirmar</button>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-matricula">Confirmar</button>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-matricula">Confirmar</button>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,20 @@
 <script type="text/javascript">
+	$(document).on('mouseenter', '.btn-dropdown-lateral', function(e){
+		e.preventDefault();
+		$(this).parents('.btn-group').addClass('open');
+	});
+
+	$(document).on('mouseleave', '.dropdown-menu', function(e){
+		e.preventDefault();
+		$(this).parents('.btn-group').removeClass('open');
+	});
+
+	$(document).on('keypress', function(e) {
+		if(e.which == 13) {
+			$('.btn-login').trigger('click');
+		}
+	});
+
 	function validacaoEmail(field) {
 		usuario = field.val().substring(0, field.val().indexOf("@"));
 		dominio = field.val().substring(field.val().indexOf("@")+ 1, field.val().length);

@@ -7,6 +7,7 @@
                 <div class="col-sm-6">
                     <ul class="pull-right">
                         <li><a href="#Principal">Principal</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/site/solucoes">Soluções</a></li>
                         <li><a href="#SuperandoDesafios">Superando Desafios</a></li>
                         <!-- <li><a href="#TrabalhosRecentes">Trabalhos Recentes</a></li> -->
                         <li><a href="#Coaching">Coaching</a></li>
@@ -25,6 +26,7 @@
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.prettyPhoto.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jmask/dist/jquery.mask.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/wow.min.js"></script>
 </body>

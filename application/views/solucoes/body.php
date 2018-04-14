@@ -30,7 +30,8 @@
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services1.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Consultório de Psicologia</h5>
-                                    <p class="card-text">Busca aumentar o desempenho organizacional a partir de um trabalho personalizado, para atender as necessidades de um negócio, de uma área ou de uma equipe.</p>
+                                    <p class="card-text">Busca aumentar o desempenho organizacional a partir de um trabalho personalizado, para atender as necessidades de um negócio, de uma área ou de uma equipe.
+                                        </p><i>Para mais informações referente aos itens listados acima, entre em contato conosco!</i>
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Entrar em Contato.</button>
@@ -59,7 +60,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-contato">Confirmar</button>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +74,8 @@
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services3.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Atendimento em Coaching</h5>
-                                    <p class="card-text">Visa potencializar a performance dos executivos por meio do aumento da eficácia do líder, da capacidade de influenciar, formar, desenvolver e liderar times de alta performance, elevando a motivação, engajamento e produtividade das equipes.</p>
+                                    <p class="card-text">Visa potencializar a performance dos executivos por meio do aumento da eficácia do líder, da capacidade de influenciar, formar, desenvolver e liderar times de alta performance, elevando a motivação, engajamento e produtividade das equipes.
+                                    </p><i>Para mais informações referente aos itens listados acima, entre em contato conosco!</i>
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Entrar em Contato.</button>
@@ -102,7 +104,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-contato">Confirmar</button>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +116,15 @@
                                 <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/services/services4.png" alt="Card image cap">
                                 <div class="card-body">
                                     <h5 class="card-title">Para Empresas</h5>
-                                    <p class="card-text">Consultoria Organizacional, Avaliação 360, Recrutamento e Seleção, Palestra e Treinamento.</p>
+                                    <p class="card-text">
+                                        <ul>
+                                            <li>Consultoria Organizacional</li>
+                                            <li>Avaliação 360</li>
+                                            <li>Recrutamento e Seleção</li>
+                                            <li>Palestra e Treinamento</li>
+                                        </ul>
+                                        <i>Para mais informações referente aos itens listados acima, entre em contato conosco!</i>
+                                    </p>
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Entrar em Contato.</button>
@@ -143,7 +153,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button href="#" class="btn btn-primary">Voltar</button>
-                                    <button href="#" class="btn btn-success">Confirmar</button>
+                                    <button href="#" class="btn btn-success selector-btn-contato">Confirmar</button>
                                 </div>
                             </div>
                         </div>

@@ -45,7 +45,7 @@
 		}
 	});
 
-	$(document).on('click', '.btn-success', function(e){
+	$(document).on('click', '.selector-btn-matricula', function(e){
 		e.preventDefault();
 		var input = $(this).parents('.card');
 
@@ -71,6 +71,14 @@
 			input.find('form').submit();
 			alert('Uma solicitação de matrícula será enviada, por favor aguarde que em instantes receberá um email com a confirmação.');
 		}
+	});
 
-	});	
+	$(document).on('click', '.selector-arquivo', function(e){
+		e.preventDefault();
+		$('.selector-arquivo-hidden').trigger('click');
+	});
+
+	$(document).on('change', '.selector-arquivo-hidden', function(){
+		$('#selector-nome-arquivo').text($(this).val().split('fakepath\\')[1]);
+	});
 </script>

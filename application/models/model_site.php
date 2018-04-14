@@ -25,4 +25,11 @@ class Model_site extends CI_Model {
 	public function realizaCadastro($nome, $email, $senha){
 		return true;
 	}
+
+	public function buscaPathByArquivoId($arquivo_id){
+		/*$this->db->select('path');
+		$this->db->where('arquivo_id', $arquivo_id);
+		return $this->db->get('arquivos')->result_array()[0]['path'];*/
+		return base_url('arquivos/intranet/teste.pdf');
+	}
 }
