@@ -185,9 +185,6 @@ class Site extends CI_Controller {
 	public function downloadArquivo($arquivo_id){
 		if ($arquivo_id == 1) {
 			$path = $this->site->buscaPathByArquivoId($arquivo_id);
-			echo "<pre>";
-			print_r ($path);
-			echo "</pre>";die();
 			force_download($path, NULL);
 		}
 	}
