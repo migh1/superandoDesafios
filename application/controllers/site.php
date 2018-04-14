@@ -183,9 +183,56 @@ class Site extends CI_Controller {
 	}
 
 	public function downloadArquivo($arquivo_id){
-		if ($arquivo_id == 1) {
-			$path = $this->site->buscaPathByArquivoId($arquivo_id);
-			force_download($path, NULL);
+		//busca o diretorio do arquivo
+		$path = $this->site->buscaPathByArquivoId($arquivo_id);
+
+		//busca de fato o arquivo baseado no caminho
+		$data = file_get_contents($path);
+
+		//pega o nome do arquivo com o end ali em baixo
+		$nome = explode('/', $path);
+		$nome = end($nome);
+
+		//realiza o download
+		force_download($nome, $data);
+	}
+
+	public function visualizarArquivo($arquivo_id){
+		//busca o diretorio do arquivo
+		$path = $this->site->buscaPathByArquivoId($arquivo_id);
+
+		if ($arquivo_id == 4) {
+
+			if (strpos($path, 'watch?v=')) {
+				$path = explode('watch?v=', $path)[1];
+			} else if(strpos($path, 'youtu.be/')){
+				$path = explode('youtu.be/', $path)[1];
+			}
+
+			$this->output->set_content_type('application/json')->set_output(json_encode($path));
+		} else {
+			//busca de fato o arquivo baseado no caminho
+			$data = file_get_contents($path);
+
+			//pega o nome do arquivo com o end ali em baixo
+			$nome = explode('/', $path);
+			$nome = end($nome);
+
+			//pega a extensao do arquivo
+			$ext  = explode('.', $nome);
+			$ext  = strtolower(end($ext));
+
+
+			if ($ext == 'pdf') {
+				header("Content-Type: application/pdf");
+				echo $data;
+			} else if($ext == 'jpg' || $ext == 'png' || $ext == 'gif'){
+				echo '<img src="data:image/jpeg;base64,' . base64_encode($data) . '" />';
+			} else {
+				//realiza o download
+				force_download($nome, $data);
+			}
 		}
+
 	}
 }

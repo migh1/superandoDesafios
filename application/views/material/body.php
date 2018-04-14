@@ -63,20 +63,20 @@
                                         </tr>
                                         <tr>
                                             <td>Teste 82</td>
-                                            <td>.docx</td>
+                                            <td>.png</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Teste 128</td>
-                                            <td>.docx</td>
+                                            <td>.jpg</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -84,8 +84,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -93,26 +93,24 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Teste 452</td>
-                                            <td>.docx</td>
+                                            <td>YouTube</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="#modalVerVideo" class="btn btn-default pull-right selector-btn-youtube" data-id="4" data-toggle="modal" href='#modalVerVideo'><i class="fab fa-youtube"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Teste 24</td>
-                                            <td>.docx</td>
+                                            <td>YouTube</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="#modalVerVideo" class="btn btn-default pull-right selector-btn-youtube" data-id="4" data-toggle="modal" href='#modalVerVideo'><i class="fab fa-youtube"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -140,20 +138,20 @@
                                         </tr>
                                         <tr>
                                             <td>Segunda aba 2</td>
-                                            <td>.docx</td>
+                                            <td>.png</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Segunda aba 3</td>
-                                            <td>.docx</td>
+                                            <td>.jpg</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/2'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -161,8 +159,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -170,8 +168,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -179,8 +177,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -188,8 +186,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -197,8 +195,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -206,8 +204,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -215,8 +213,8 @@
                                             <td>.docx</td>
                                             <td>09/04/2018</td>
                                             <td>
-                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
-                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/1'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/downloadArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-cloud-download-alt"></i></a>
+                                                <a href="<?php echo base_url('index.php/site/visualizarArquivo/3'); ?>" target="_blank" class="btn btn-default pull-right"><i class="fas fa-eye"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -272,5 +270,13 @@
         </div>
     <?php endif ?>
 
+    <!-- Modal para ver video -->
+
+        <div class="modal fade" id="modalVerVideo">
+            <div class="modal-dialog modal-sm selector-modal-video-size">
+                <div class="modal-content selector-conteudo-youtube">
+                </div>
+            </div>
+        </div>
 <?php endif ?>
 

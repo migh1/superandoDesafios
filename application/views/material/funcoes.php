@@ -81,4 +81,20 @@
 	$(document).on('change', '.selector-arquivo-hidden', function(){
 		$('#selector-nome-arquivo').text($(this).val().split('fakepath\\')[1]);
 	});
+
+	$(document).on('click', '.selector-btn-youtube', function(){
+		var url = '<?php echo base_url('index.php/site/visualizarArquivo') ?>';
+		$.ajax({
+			url: url+'/'+$(this).data('id'),
+			dataType: 'JSON',
+			success: function(retorno){
+				console.log(retorno);
+				$('#modalVerVideo .selector-conteudo-youtube').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/'+retorno+'?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+				$('#modalVerVideo').modal('show');
+			},
+			error: function(error){console.log(error);},
+			complete: function(retorno){console.log(retorno);}
+		});
+				
+	});
 </script>

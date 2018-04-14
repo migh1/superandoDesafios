@@ -6,16 +6,16 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#Principal">Principal</a></li>
+                        <li><a href="<?php echo base_url(); ?>#Principal">Principal</a></li>
                         <li><a href="<?php echo base_url(); ?>index.php/site/solucoes">Soluções</a></li>
-                        <li><a href="#SuperandoDesafios">Superando Desafios</a></li>
+                        <li><a href="<?php echo base_url(); ?>#SuperandoDesafios">Superando Desafios</a></li>
                         <!-- <li><a href="#TrabalhosRecentes">Trabalhos Recentes</a></li> -->
-                        <li><a href="#Coaching">Coaching</a></li>
+                        <li><a href="<?php echo base_url(); ?>#Coaching">Coaching</a></li>
                         <li><a href="<?php echo base_url(); ?>index.php/site/cursos">Cursos</a></li>
                         <!-- <li><a href="#Depoimentos">Depoimentos</a></li> -->
                         <!-- <li><a href="#SaiuMidia">Saiu na Mídia</a></li> -->
                         <!-- <li><a href="#Certificados">Certificados</a></li> -->
-                        <li><a href="#Contatos">Contatos</a></li>
+                        <li><a href="<?php echo base_url(); ?>#Contatos">Contatos</a></li>
                     </ul>
                 </div>
             </div>

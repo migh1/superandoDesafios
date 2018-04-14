@@ -2846,3 +2846,8 @@ shortcodes page css
 .selector-btn-add-arquivos{
 	margin: 20px 0 20px 0;
 }
+.selector-modal-video-size{
+	width: 0px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
